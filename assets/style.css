@@ -414,4 +414,13 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+
+	.gallery-item{
+		width : 90%;
+	}
+
+	.item-column{
+		justify-content: center;
+		justify-items: center;
+	}
 }
