@@ -416,7 +416,7 @@ input[type="submit"] {
 	}
 
 	.gallery-item{
-		width : 90%;
+		width : add;
 	}
 
 	.item-column{
