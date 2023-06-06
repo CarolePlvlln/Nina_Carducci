@@ -388,13 +388,12 @@ input[type="submit"] {
 		text-align: center;
 	}
 
+	#carouselExampleIndicator{
+		margin-bottom: 500px;
+	}
 	.picture.left::before,
 	.picture.right::before {
 		height: 150px;
-	}
-
-	#services .container {
-		align-items: center;
 	}
 
 	.service {
@@ -416,7 +415,7 @@ input[type="submit"] {
 	}
 
 	.gallery-item{
-		width : add;
+		width : 100%;
 	}
 
 	.item-column{
