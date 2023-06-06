@@ -110,9 +110,9 @@ p {
 	flex: 2
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+/*#gallery {
+		min-height: 100vh; 
+}*/
 
 .title {
 	text-align: center;
