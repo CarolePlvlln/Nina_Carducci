@@ -110,14 +110,19 @@ p {
 	flex: 2
 }
 
-/*#gallery {
-		min-height: 100vh; 
-}*/
+#gallery {
+	/*	min-height: 100vh; */
+}
 
 .title {
 	text-align: center;
 	padding-block: 1em;
 	margin-bottom: 0px;
+}
+.gallery{
+	display: flex;
+	flex-direction: column;
+	
 }
 
 .gallery .nav {
