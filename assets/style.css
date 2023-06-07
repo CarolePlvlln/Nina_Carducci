@@ -25,16 +25,16 @@ h1 {
 }
 
 h2 {
+	margin-top: 1em;
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+
+h3 {
 	font-size: 30px;
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-}
-
-h3 {
-	margin-top: 1em;
-	margin-bottom: 60px;
-	font-size: 30px;
 }
 
 h4 {
@@ -154,6 +154,9 @@ p {
 
 .gallery-item {
 	/*position: absolute;*/
+	position: absolute;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 	padding: .5em;
 }
@@ -215,12 +218,14 @@ p {
 	background-color: white;
 	max-width: 390px;
 	width: 30%;
-	height: 310px;
+	height: 337px;
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #contact {
