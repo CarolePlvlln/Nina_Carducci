@@ -218,8 +218,6 @@ p {
 	margin-top: 10px
 }
 
-
-
 .tarifs p, .intro p {
 	font-family: 'Spectral';
 	font-weight: 800;
@@ -411,9 +409,18 @@ input[type="submit"] {
 	#carouselExampleIndicator{
 		margin-bottom: 500px;
 	}
+
+	.picture.left {
+		width: auto;
+	}
+
 	.picture.left::before,
 	.picture.right::before {
 		height: 150px;
+	}
+
+	.picture.right{
+		width: auto;
 	}
 
 	.service {
@@ -441,5 +448,9 @@ input[type="submit"] {
 	.item-column{
 		justify-content: center;
 		justify-items: center;
+	}
+
+	.service {
+margin-left: 15px;
 	}
 }
