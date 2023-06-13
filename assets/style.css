@@ -157,7 +157,6 @@ p {
 }
 
 .gallery-item {
-	/*position: absolute;*/
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -165,9 +164,6 @@ p {
 	padding: .5em;
 }
 
-img-fluid{
-	max-width: 100%;
-}
 
 .mg-prev,
 .mg-next {
