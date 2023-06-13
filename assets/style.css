@@ -165,6 +165,10 @@ p {
 	padding: .5em;
 }
 
+img-fluid{
+	max-width: 100%;
+}
+
 .mg-prev,
 .mg-next {
 	width: 30px;
