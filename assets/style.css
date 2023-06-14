@@ -71,6 +71,11 @@ p {
 	color: #000
 }
 
+.nav :hover{
+	text-decoration: none;
+	color: #BEB45A;
+}
+
 .social-link img {
 	width: 22px;
 }
@@ -81,6 +86,10 @@ p {
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
+}
+
+.picture.left img{
+	width: 400px;
 }
 
 .picture.left::before {
@@ -125,8 +134,7 @@ p {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-	color: #000000;
-	background-color: #BEB45A;
+
 	border-radius: 0;
 }
 
@@ -304,6 +312,7 @@ input[type="submit"] {
 		flex: 2;
 	}
 
+
 	#about,
 	#contact .container {
 		align-items: center;
@@ -323,11 +332,15 @@ input[type="submit"] {
 @media screen and (max-width: 1000px) {
 	#about {
 		flex-direction: column;
-
 	}
 
 	.picture {
 		width: 50%;
+	}
+
+	.picture.left img{
+		width: 400px;
+		margin-bottom: 15px;
 	}
 
 	.picture.left::before {
@@ -410,6 +423,11 @@ input[type="submit"] {
 		margin-bottom: 500px;
 	}
 
+
+	.picture.left img{
+		width: 400px;
+	}
+
 	.picture.left {
 		width: auto;
 	}
@@ -443,6 +461,10 @@ input[type="submit"] {
 
 	.gallery-item{
 		width : 100%;
+	}
+
+	.img-fluid{
+		width: 90%;
 	}
 
 	.item-column{
