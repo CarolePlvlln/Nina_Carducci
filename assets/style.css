@@ -78,12 +78,8 @@ p {
 
 .social-link img {
 	width: 22px;
-	height: auto;
 }
 
-.carousel-item img {
-	width: 100%;
-}
 
 #about {
 	display: flex;
