@@ -228,7 +228,7 @@ p {
 	margin-top: 10px
 }
 
-.service p, .intro p {
+.tarifs h3, .intro p {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
