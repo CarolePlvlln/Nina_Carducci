@@ -80,6 +80,10 @@ p {
 	width: 22px;
 }
 
+.carousel-item img {
+	width: 100%;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -90,6 +94,7 @@ p {
 
 .picture.left img{
 	width: 400px;
+	height: 400px;
 }
 
 .picture.left::before {
@@ -270,6 +275,11 @@ p {
 	bottom: 0;
 	right: 0;
 	z-index: -1;
+}
+
+.picture.right img{
+	width: 300px;
+	height: 300px;
 }
 
 .form-container {
