@@ -277,6 +277,7 @@ p {
 .picture.right img{
 	width: 300px;
 	height: 300px;
+	margin-bottom: 20px;
 }
 
 .form-container {
@@ -326,7 +327,7 @@ input[type="submit"] {
 	font-size: 19px;
 }
 
-.contact p{
+.postal-address p{
 	margin-bottom: 0px;
 }
 
