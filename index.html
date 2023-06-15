@@ -231,18 +231,19 @@
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
 					<input type="submit" value="Envoyer">
 			</div>
-			<div class="picture right">
+			<div class="picture right contact">
 				<img src="./assets/images-originales/images/camera.webp"
 					srcset="./assets/images-originales/images/camera-380.webp, ./assets/images-originales/images/camera-680.webp, ./assets/images-originales/images/camera-1180.webp, ./assets/images-originales/images/camera.webp"
 					alt="photo-camera" width="300">
-					<h3>Nina Carducci</h3>
-					<div itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress” >
+					<div itemscope itemtype=”https://schema.org/Photograph” >
+						<h3 itemprop=”author”>Nina Carducci</h3></div>
+					<div itemscope itemtype=”http://schema.org/PostalAddress” >
 						<span itemprop=”streetAddress”> 68 Av. Alsace Lorraine,</span>
 						<span itemprop=”postalCode”>33000</span>
 						<span itemprop=”addressLocality”>Bordeaux</span>
+						<p>Téléphone : <span itemprop=”telephone”>05.56.67.78.89</span></p>
 					</div>
-				<div class="postal-address"><p>Horaires : du lundi au vendredi de 10h à 19h</p>
-					<p>Téléphone : 05.56.67.78.89</p>
+					<p>Horaires : du lundi au vendredi de 10h à 19h</p>
 				</div>
 			</div>
 	</footer>
