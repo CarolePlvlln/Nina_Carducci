@@ -454,9 +454,9 @@ input[type="submit"] {
 		margin-bottom: 500px;
 	}
 
-
-	.picture.left img{
-		width: 400px;
+	.picture.left img, .picture.left img{
+		width: 250px;
+		height: 250px;
 	}
 
 	.picture.left {
